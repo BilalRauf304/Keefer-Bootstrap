@@ -1,0 +1,17 @@
+.horizontal{
+    margin: 0px;
+    border-bottom: 5px solid grey;
+    /* width: 350px; */
+    
+}
+.contact-no{
+    color: blue;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+.background-img{
+    background-image: url(./Imeges/form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
