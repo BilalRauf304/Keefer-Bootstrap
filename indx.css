@@ -5,13 +5,48 @@
     
 }
 .contact-no{
-    color: blue;
+    color:black;
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
 }
-.background-img{
+.bg-img{
     background-image: url(./Imeges/form_bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;  
+    height: 100%;
 }
+.questions {
+    background-color: brown;
+}
+.word-question{
+    color: #072B5B;
+}
+.case-textarea{
+    width: 555px;
+}
+.confidential{
+    transform: rotate(8deg);
+}
+.banner{
+    height: 80%;
+}
+.banner-1{
+    height: 70%
+}
+.DUI, .case, .blog, .credentials, .area, .testimonials, .areas, .us{
+    color:  #750f0f;
+}
+.click-btn{
+    border-top: 3px solid grey;
+}
+.button-show {
+    border-color: var(--border-color) !important;
+    border-width: 2px !important;
+}
+.dui-main{
+    border-left: 12px solid #611915;
+  }
+  .menu-area-here{
+    opacity: 0.4;
+  }
