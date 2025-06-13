@@ -1,3 +1,7 @@
+:root{
+    --btn-active:#676767;
+    --nav-link:#fff;
+}
 .horizontal{
     margin: 0px;
     border-bottom: 5px solid grey;
@@ -9,6 +13,9 @@
     letter-spacing: 2px;
     margin: 0;
     padding: 0;
+}
+.nav-item:first-child .nav-link{
+    background-color: var(--btn-active) ;
 }
 .bg-img{
     background-image: url(./Imeges/form_bg.jpg);
