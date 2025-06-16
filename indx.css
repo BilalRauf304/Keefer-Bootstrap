@@ -5,8 +5,6 @@
 .horizontal{
     margin: 0px;
     border-bottom: 5px solid grey;
-    /* width: 350px; */
-    
 }
 .contact-no{
     color:black;
@@ -22,6 +20,7 @@
     background-repeat: no-repeat;
     background-size:cover;  
     height: 100%;
+    /* margin-top: 5px; */
 }
 .questions {
     background-color: brown;
