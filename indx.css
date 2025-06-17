@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 :root{
     --btn-active:#676767;
     --nav-link:#fff;
