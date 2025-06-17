@@ -2,8 +2,12 @@ body{
     overflow-x: hidden;
 }
 :root{
+    --btn-color:#750f0f;
     --btn-active:#676767;
     --nav-link:#fff;
+}
+.button{
+    background-color: #750f0f;
 }
 .horizontal{
     margin: 0px;
@@ -59,3 +63,5 @@ body{
   .menu-area-here{
     opacity: 0.4;
   }
+
+
