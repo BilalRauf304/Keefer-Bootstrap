@@ -9,10 +9,6 @@ body{
 .button{
     background-color: #750f0f;
 }
-.horizontal{
-    margin: 0px;
-    border-bottom: 5px solid grey;
-}
 .contact-no{
     color:black;
     letter-spacing: 2px;
@@ -27,7 +23,6 @@ body{
     background-repeat: no-repeat;
     background-size:cover;  
     height: 100%;
-    /* margin-top: 5px; */
 }
 .questions {
     background-color: brown;
@@ -35,11 +30,15 @@ body{
 .word-question{
     color: #072B5B;
 }
-.case-textarea{
-    width: 555px;
-}
+ .form-img-{
+    display: flex;
+    justify-content:space-around ;
+ }
 .confidential{
-    transform: rotate(8deg);
+    transform: rotate(18deg);
+}
+#textareas{
+ width: 86%;
 }
 .banner{
     height: 80%;
@@ -63,5 +62,26 @@ body{
   .menu-area-here{
     opacity: 0.4;
   }
-
+  .BOX---3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:inherit;   
+  }
+.clients{
+    padding:0px 84px 0px 0px ;
+    margin: 0;
+}
+.butt{
+    border: none;
+    background-color: #b4140b;
+}
+.border{
+    width: 100%;
+}
 
