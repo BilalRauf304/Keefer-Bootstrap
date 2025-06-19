@@ -15,6 +15,9 @@ body{
     margin: 0;
     padding: 0;
 }
+.calloffice{
+    border-bottom: #676767;
+}
 .nav-item:first-child .nav-link{
     background-color: var(--btn-active) ;
 }
@@ -79,7 +82,8 @@ body{
 }
 .butt{
     border: none;
-    background-color: #b4140b;
+    background-color: #ce160c;
+    box-shadow: 1px 6px 5px black;
 }
 .border{
     width: 100%;
