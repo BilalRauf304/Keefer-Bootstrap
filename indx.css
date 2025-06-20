@@ -1,91 +1,180 @@
-body{
-    overflow-x: hidden;
+body {
+  border-left: 20px solid gray;
+  border-right: 20px solid gray;
+  border-bottom: 20px solid rgb(70, 70, 70);
+  overflow-x: hidden;
 }
-:root{
-    --btn-color:#750f0f;
-    --btn-active:#676767;
-    --nav-link:#fff;
+:root {
+  --btn-color: #750f0f;
+  --btn-active: #676767;
+  --nav-link: #fff;
 }
-.button{
-    background-color: #750f0f;
+.button {
+  background-color: #750f0f;
 }
-.contact-no{
-    color:black;
-    letter-spacing: 2px;
-    margin: 0;
-    padding: 0;
+.contact-no {
+  color: black;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
 }
-.calloffice{
-    border-bottom: #676767;
+.calloffice {
+  border-bottom: #676767;
 }
-.nav-item:first-child .nav-link{
-    background-color: var(--btn-active) ;
+.nav-item:first-child .nav-link {
+  background-color: var(--btn-active);
 }
-.bg-img{
-    background-image: url(./Imeges/form_bg.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;  
-    height: 100%;
+.bg-img {
+  background-image: url(./Imeges/form_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 .questions {
-    background-color: brown;
+  background-color: brown;
 }
-.word-question{
-    color: #072B5B;
+.word-question {
+  color: #072b5b;
 }
- .form-img-{
-    display: flex;
-    justify-content:space-around ;
- }
-.confidential{
-    transform: rotate(18deg);
+.form-img- {
+  display: flex;
+  justify-content: space-around;
 }
-#textareas{
- width: 86%;
+.confidential {
+  transform: rotate(18deg);
 }
-.banner{
-    height: 80%;
+#textareas {
+  width: 86%;
 }
-.banner-1{
-    height: 70%
+.banner {
+  height: 80%;
 }
-.DUI, .case, .blog, .credentials, .area, .testimonials, .areas, .us{
-    color:  #750f0f;
+.banner-1 {
+  height: 70%;
 }
-.click-btn{
-    border-top: 3px solid grey;
+.DUI,
+.case,
+.blog,
+.credentials,
+.area,
+.testimonials,
+.areas,
+.us {
+  color: #750f0f;
+}
+.click-btn {
+  border-top: 3px solid grey;
 }
 .button-show {
-    border-color: var(--border-color) !important;
-    border-width: 2px !important;
+  border-color: var(--border-color) !important;
+  border-width: 2px !important;
 }
-.dui-main{
-    border-left: 12px solid #611915;
-  }
-  .menu-area-here{
-    opacity: 0.4;
-  }
-  .BOX---3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .last{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align:inherit;   
-  }
-.clients{
-    padding:0px 84px 0px 0px ;
-    margin: 0;
+.dui-main {
+  border-left: 12px solid #611915;
 }
-.butt{
-    border: none;
-    background-color: #ce160c;
-    box-shadow: 1px 6px 5px black;
+.menu-area-here {
+  opacity: 0.4;
 }
-.border{
-    width: 100%;
+.BOX---3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+}
+.clients {
+  padding: 0px 84px 0px 0px;
+  margin: 0;
+}
+.butt {
+  border: none;
+  background-color: #ce160c;
+  box-shadow: 1px 6px 5px black;
+}
+.border {
+  width: 100%;
+}
+#box-2 {
+  /* border-left: 3px  solid gray; */
+  /* border-right: 4px solid gray; */
 }
 
+.btn-f1 {
+  border-top: 1px solid rgb(70, 68, 68);
+  display: block;
+  margin: auto;
+  margin-left: 20px;
+}
+.btn-f1 button {
+  margin-right: 0.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: none;
+  width: auto;
+  color: #fffffa;
+  font-size: 15px;
+}
+.btn-f2 {
+  margin-block: 2vw;
+  border-top: 1px solid rgb(70, 68, 68);
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.btn-f2 button {
+  margin-right: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: none;
+  width: auto;
+  color: #fffffa;
+  font-size: 15px;
+}
+button img {
+  margin: 0.3vw 0.2vw;
+  margin-top: 0.4vw;
+}
+.btn-f3 {
+  margin-block: 2vw;
+  border-top: 2px solid rgb(70, 68, 68);
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.btn-f3 button {
+  margin-right: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: none;
+  width: auto;
+  color: #fffffa;
+  font-size: 14px;
+}
+.box2 {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+@media (max-width: 768px) {
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    display: block;
+    margin: auto;
+  }
+  .box2 {
+    border: none;
+  }
+}
